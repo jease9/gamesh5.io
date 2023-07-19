@@ -59,11 +59,20 @@
       <div class="index1">
         <video
           id="video"
-          src="./img/h5-video.mp4"
+          muted
+          autoplay
+          preload
+          loop
           poster="./img/one.png"
+          x5-video-player-fullscreen="true"
+          x5-playsinline
+          playsinline
+          webkit-playsinline
           controls=""
           style="width: 80%; margin: 0 auto; display: block;"
-        ></video>
+        >
+          <source src="./img/h5-video.mp4" type="video/mp4" />
+        </video>
       </div>
 
       <div class="title" id="uid"></div>
